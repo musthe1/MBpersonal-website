@@ -1,0 +1,264 @@
+.ubuntu-light {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ubuntu-regular {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-medium {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ubuntu-bold {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-light-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ubuntu-regular-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-medium-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ubuntu-bold-italic {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.mustafa{
+    display: block; /* Performs the auto margin method as you resize the browser window */
+    margin: 0 auto; /* Centers the image horizontally */
+    margin-top: 60px; /* Adds a margin of 70px above the image */
+    margin-bottom: 10px; /* Adds a margin of 5px below the image */
+    max-width: 65%; /* Width is set to 65% so if the image is larger than the screen, it will resize to fit the screen */
+    width: 450px; /* Sets the width of the image to 500px */
+}
+
+html {
+    font-size: 17px; /* Sets the base font size to 15px */
+    font-family: "Ubuntu", sans-serif; /* Sets the font family to Ubuntu, with a fallback to sans-serif */
+    background-image: url("materials/background.png"); /* Sets the background image to the specified URL */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover, auto;
+}
+
+.myname {
+  color: white;
+  background-color: rgb(45, 159, 235);
+  border: 7px solid white;
+  writing-mode: horizontal-tb;
+  font-size: clamp(10px, 3vw, 30px);
+  margin: auto auto -6px 73px; /* Connects both tags; "h2" and ".m_text", as a dialogue box (inspired by Ace Attorney). */
+                              /*  Top: auto, Right: auto, Bottom: -6px, Left: 15px*/
+  display: inline-block; /* Makes the h2 element an inline-block so it can be centered and trims the width of the background bar to end after the last word. */
+  padding: 0px 13px; /* Adds padding of 0px on the top and bottom, and 13px on the left and right */
+}
+
+.border_title {
+    margin: 0px; /* Removes the default margin */
+    font-size: clamp(25px, 5vw, 45px); /* Sets the font size to a minimum of 25px, a maximum of 45px, and scales with the viewport width */
+    text-align: center;
+    background-color: rgba(235, 28, 28, 0.871);
+    display: block;
+    position: fixed; /* Makes the h3 element fixed so it stays at the top of the page when scrolling */
+    top: 0px;
+    left: 0px; /* Covers the blue area to the left */
+    width: 100%;
+    z-index: 999;
+    padding: 10px 0px;
+    color: #00E3FF;
+}
+
+.m_text {
+  color: #00E3FF;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: clamp(10px, 3vw, 30px); /*Decrease the vw value to make the text smaller while resizing*/
+  border: 7px solid white;
+  margin: 0px 50px 0px; /* Removes the default margin and connects both tags': "h2" and ".m_text", border */
+                             /*  Top: 0px, Left & Right: 50px, Bottom: 0px*/
+  border-radius: 12px;
+  padding: 3px 13px;
+}
+
+.contact {
+  background-color: #0059C3;
+  border: 8px solid #E6213C;
+  margin: auto 33%  auto;
+  border-radius: 45px;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+  font-size: clamp(5px, 4vw, 25px);
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+  color: white;
+  text-align: center;
+  margin: 0;
+  margin-top: 20px;
+}
+
+.section_about {
+  color: #00E3FF;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: clamp(7px, 3vw, 20px); /*Decrease the vw value to make the text smaller while resizing*/
+  border: 7px solid #E6213C;
+  margin: 0px 50px 0px; /* Removes the default margin and connects both tags': "h2" and ".m_text", border */
+                             /*  Top: 0px, Left & Right: 50px, Bottom: 0px*/
+  border-radius: 12px;
+  padding: 3px 13px;
+}
+
+.tags {
+  background-color: #E6213C;
+  color: white;
+  display: inline-block;
+  border: 4px solid #E6213C;
+  border-radius: 10px;
+}
+
+.subtitle {
+  color: white;
+  background-color: rgba(212, 30, 30, 0.75);
+  border: 7px solid white;
+  margin: 0 auto;
+  text-align: center;
+  font-size: clamp(15px, 3vw, 35px);
+  display: block;
+  place-items: center; /* Centers the text vertically and horizontally */
+  cursor: pointer; /* Changes the cursor to a pointer when hovering over the element */
+}
+
+/*Icons*/
+.icons {
+  margin: 0;
+  margin-top: -20px;
+  font-size: clamp(10px, 4vw, 35px);
+  display: flex; /*Using "display: flex" gets rid of the purple/blue underscores for links*/
+  justify-content: center; /*Use this code to center the icons. "text-align: center" will not work if you have the "display: flex" code here.*/
+  gap: 5px; /*Adds a gap of 5px between the icons*/
+}
+
+.project-link { /* or Character Cards */
+  margin: 0 auto; /* Centers the link horizontally */
+
+  background-color: rgba(0, 0, 0, 0.75);
+  border: 4px solid white;
+
+  display:block; /* Makes the link a block element so it can be centered and have a width */
+  width: 200px; /* Sets the width of the link to 300px */
+  height: auto; /* Sets the height of the link to auto so it can adjust to the content */
+  max-width: 100%; /* Sets the maximum width of the link to 300px */
+}
+
+.project-text {
+  color: white;
+  text-align: center;
+  font-size: clamp(10px, 3vw, 20px); /*Decrease the vw value to make the text smaller while resizing*/
+  margin-top: 10px; /* Adds a margin of 10px above the text */
+}
+
+.scroll-bar{
+  scrollbar-width: thin; /* Makes the scrollbar thinner */
+  scrollbar-color: #E6213C #00E3FF; /* Sets the color of the scrollbar thumb and track */
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Creates 3 equal columns */
+  gap: 20px; /* Adds a gap of 20px between the columns */
+
+  width: 90%; /* Sets the width of the scroll bar to 90% of the parent element */
+  height: 280px;
+  max-width: 1000px;
+
+  border: 10px solid #E6213C;
+  background-color: rgba(0, 0, 0, 0.75);
+
+  overflow-y: auto; /* Adds a vertical scrollbar if the content overflows */
+  overflow-x: hidden;
+  gap: 30px; /* Adds a gap of 30px between the scroll bar and the content */
+
+  padding: 10px; /* Adds a padding of 10px inside the scroll bar */
+  margin: 0 auto; /* Centers the scroll bar horizontally */
+  
+}
+
+.c_title {
+  color: white;
+  font-size: clamp(25px, 3vw, 60px); /*Decrease the vw value to make the text smaller while resizing*/
+  
+  width: fit-content; /* Sets the width of the title to fit the content */
+  margin: 0 auto; /* Centers the title horizontally */
+
+  border-radius: 12px;
+  padding: 3px 13px;
+  align-self: center; /* Centers the title vertically */
+
+  display: flex; /* Makes the title a flex container so it can be centered vertically */
+  justify-content: center; /* Centers the title horizontally */
+  background-color: rgba(0, 0, 0, 0.75);
+
+  border: 8px solid white;
+}
+
+.fa-youtube {
+  color: #f82a46;
+}
+.fa-google {
+  color: #f82a46;
+}
+.fa-square-github {
+  color: #f82a46;
+}
+.fa-linkedin {
+  color: #f82a46;
+}
+
+@media screen and (max-width: 768px) { /* Adjust styles for smaller screens */
+    .contact {
+      margin: 45px 33%  auto;
+    }
+    .myname {
+        font-size: clamp(25px, 3vw, 35px);
+        margin: 60px auto -6px 73px; /* Connects both tags; "h2" and ".m_text", as a dialogue box (inspired by Ace Attorney). */
+                              /*  Top: auto, Right: auto, Bottom: -6px, Left: 15px*/
+    }
+    .m_text {
+      font-size: clamp(18px, 3vw, 25px);
+      margin: 0px 50px 0px;
+                              /*  Top: auto, Right: auto, Bottom: -6px, Left: 15px*/
+    }
+}
+
+/*
+Sources:
+https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Your_first_website/Styling_the_content#improving_the_text
+https://stackoverflow.com/questions/787839/resize-image-proportionally-with-css
+https://youtu.be/pgfQgNO0G2c
+https://www.youtube.com/watch?v=rOIgu4Yw7EI
+*/
